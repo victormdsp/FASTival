@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Graduate&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.Slogan {
+    padding: 3em 9.5em;
+}
+
+.Slogan > h1 {
+    font-family: 'Graduate', cursive;
+}
+
+.sloganImage {
+    display: flex;
+    margin: 3em 0em;
+}
+
+.sloganImage > img {
+    width: 1593px;
+    height: 256px;
+    border-radius: 37px;
+}
