@@ -7,6 +7,10 @@
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.404);
 }
 
+.Header > img {
+    cursor: pointer;
+}
+
 .botoes{
     display: flex;
     gap: 45px;
@@ -16,6 +20,7 @@
     font-size: 1.5rem;
     padding: 10px 20px;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 .botoes > h4:first-child{
@@ -24,4 +29,5 @@
 
 .botoes > h4:last-child{
     background-color: #e6902e;
+    color: white;
 }
