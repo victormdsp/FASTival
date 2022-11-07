@@ -5,6 +5,7 @@ import Header from "./components/Header/Header";
 import Slogan from "./components/Slogan/Slogan";
 import EventSwipper from "./components/EventSwipper/EventSwipper";
 import EventSection from "./components/EventSection/EventSection";
+import Footer from "./components/Footer/Footer";
 
 import imgShow1 from "./assets/imgshow1.jpg";
 import imgShow2 from "./assets/imgshow2.png";
@@ -71,6 +72,7 @@ function App() {
           place3="Allianz Parque - SP"
         />
       </div>
+      <Footer />
     </div>
   );
 }
